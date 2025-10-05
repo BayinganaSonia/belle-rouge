@@ -1,0 +1,75 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    color: darkred
+}
+nav {
+    background-color: lightpink;
+    padding: 10px;
+    text-align: center;
+    text-decoration-style: double;
+}
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: darkred;
+    font-weight: bold;
+}
+nav a:hover {
+    color: crimson;
+}
+.product-card {
+    border: 1px solid lightblue;
+    border-radius: 10px;
+    padding: 16px;
+    margin: 12px;
+    display: inline-block;
+    width: 250px;
+    text-align: center;
+    background-color: lightcoral;
+}
+.product-card img {
+    border-radius: 8px;
+}
+button {
+    background-color: darkred;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: crimson;
+}
+section{
+    margin: 32px 0;
+    padding: 0 16px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+@media (max-width: 600px) {
+    .product-card {
+        width: 100%;
+        margin: 12px 0;
+    }
+    nav a {
+        display: block;
+        margin: 10px 0;
+    }
+    section {
+        padding: 0 8px;
+    }
+}
